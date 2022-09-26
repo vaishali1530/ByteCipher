@@ -32,9 +32,8 @@ export default class Splash extends Component {
     render() {
         return (
             <View style={{ flex: 1, alignItems: 'center', 'justifyContent': 'center', backgroundColor: Color.splashback }}>
-                 <StatusBar hidden={true}/>
+                 <StatusBar hidden={false}/>
                 <Image source={require('../assets/images/download.png')} style={{ width: mobileW * 60 / 100, height: mobileW * 50 / 100, resizeMode: 'contain' }} />
-
             </View>
         );
     }
